@@ -1,14 +1,12 @@
 package com.rsabasics;
-import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 import org.apache.http.HttpStatus;
 
 import files.Payload;
-
-import static org.hamcrest.Matchers.*;
-
-import static io.restassured.RestAssured.*;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 
 public class Basics {
 
