@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5586" started-at="2021-06-12T15:33:22 EDT" finished-at="2021-06-12T15:33:28 EDT">
+  <suite name="Default suite" duration-ms="6552" started-at="2021-06-12T21:42:53 EDT" finished-at="2021-06-12T21:42:59 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5586" started-at="2021-06-12T15:33:22 EDT" finished-at="2021-06-12T15:33:28 EDT">
-      <class name="com.rsabasics.JiraTest">
-        <test-method status="PASS" signature="CreateSession()[pri:0, instance:com.rsabasics.JiraTest@2a17b7b6]" name="CreateSession" is-config="true" duration-ms="4779" started-at="2021-06-12T15:33:22 EDT" finished-at="2021-06-12T15:33:27 EDT">
+    <test name="Default test" duration-ms="6552" started-at="2021-06-12T21:42:53 EDT" finished-at="2021-06-12T21:42:59 EDT">
+      <class name="com.rsabasics.SerializeTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.rsabasics.SerializeTest@3b088d51]" name="Setup" is-config="true" duration-ms="921" started-at="2021-06-12T21:42:53 EDT" finished-at="2021-06-12T21:42:54 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateSession -->
-        <test-method status="PASS" signature="AddComment()[pri:0, instance:com.rsabasics.JiraTest@2a17b7b6]" name="AddComment" duration-ms="475" started-at="2021-06-12T15:33:27 EDT" finished-at="2021-06-12T15:33:27 EDT">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="AddAddress()[pri:0, instance:com.rsabasics.SerializeTest@3b088d51]" name="AddAddress" duration-ms="5530" started-at="2021-06-12T21:42:54 EDT" finished-at="2021-06-12T21:42:59 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddComment -->
-        <test-method status="PASS" signature="GetIssue()[pri:0, instance:com.rsabasics.JiraTest@2a17b7b6]" name="GetIssue" duration-ms="250" started-at="2021-06-12T15:33:27 EDT" finished-at="2021-06-12T15:33:28 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetIssue -->
-      </class> <!-- com.rsabasics.JiraTest -->
+        </test-method> <!-- AddAddress -->
+      </class> <!-- com.rsabasics.SerializeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rsabasics.JiraTest">
+      <class name="com.rsabasics.SerializeTest">
         <methods>
-          <include name="AddAttachment"/>
-          <include name="CreateSession"/>
+          <include name="Setup"/>
+          <include name="AddAddress"/>
         </methods>
-      </class> <!-- com.rsabasics.JiraTest -->
+      </class> <!-- com.rsabasics.SerializeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
